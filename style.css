@@ -1,0 +1,308 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+/* @media screen and (min-height: 1080px) and (orientation: landscape) {} */
+body {
+    background-image: url(./src/backgroundMain.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+div#Calendar {
+    position: absolute;
+    background-image: url(./src/divCalendar.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 75%;
+    top: 12.5%;
+    left: 20%;
+    border-radius: 15px;
+}
+div#day1 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day2 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 12%;
+}
+div#day3 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 21%;
+}
+div#day4 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day5 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day6 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day7 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day8 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day9 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day10 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day11 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+
+div#day12 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}div#day13 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day14 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day15 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day16 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day17 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day18 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day19 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day20 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day21 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+
+div#day22 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day23 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day24 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day25 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day26 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day27 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day28 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day29 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day30 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+div#day31 {
+    position: absolute;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+    border-radius: 15px;
+    top: 3%;
+    left: 3%;
+}
+
+@media screen and (max-height: 1070px) and (min-width: 250px) and (orientation:portrait) {
+
+}
