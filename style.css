@@ -22,14 +22,30 @@ div#Calendar {
     left: 20%;
     border-radius: 15px;
 }
+/* adicionar cores diferentes para os fins de semanas, colocar botões na parte lateral , ver como fazer botões animados
+border: none; button 
+colocar um ponto que muda de cor caso tenha ou não atividade e caso tenha atividade importante
+colocar o nome do dia da semana pequeno e abreviado em cima*/
 div#day1 {
     position: absolute;
     background-color: white;
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
+    top: 4%;
     left: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day1:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day2 {
     position: absolute;
@@ -37,8 +53,20 @@ div#day2 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 12%;
+    top: 4%;
+    left: 13%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day2:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day3 {
     position: absolute;
@@ -46,8 +74,20 @@ div#day3 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 21%;
+    top: 4%;
+    left: 23%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day3:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day4 {
     position: absolute;
@@ -55,8 +95,20 @@ div#day4 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 30%;
+    top: 4%;
+    left: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day4:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day5 {
     position: absolute;
@@ -64,8 +116,20 @@ div#day5 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 39%;
+    top: 4%;
+    left: 43%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day5:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day6 {
     position: absolute;
@@ -73,8 +137,20 @@ div#day6 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 48%;
+    top: 4%;
+    left: 53%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day6:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day7 {
     position: absolute;
@@ -82,8 +158,20 @@ div#day7 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 57%;
+    top: 4%;
+    left: 63%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day7:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum7 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day8 {
     position: absolute;
@@ -91,8 +179,20 @@ div#day8 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 4%;
+    left: 73%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day8:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum8 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day9 {
     position: absolute;
@@ -100,8 +200,20 @@ div#day9 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 4%;
+    left: 83%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day9:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum9 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day10 {
     position: absolute;
@@ -109,8 +221,20 @@ div#day10 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
+    top: 14%;
     left: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day10:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum10 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day11 {
     position: absolute;
@@ -118,26 +242,62 @@ div#day11 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 13%;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+div#day11:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum11 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
+}
 div#day12 {
     position: absolute;
     background-color: white;
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
-}div#day13 {
+    top: 14%;
+    left: 23%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day12:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum12 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
+}
+div#day13 {
     position: absolute;
     background-color: white;
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day13:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum13 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day14 {
     position: absolute;
@@ -145,8 +305,20 @@ div#day14 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 43%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day14:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum14 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day15 {
     position: absolute;
@@ -154,8 +326,20 @@ div#day15 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 53%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day15:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum15 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day16 {
     position: absolute;
@@ -163,8 +347,20 @@ div#day16 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 63%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day16:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum16 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day17 {
     position: absolute;
@@ -172,8 +368,20 @@ div#day17 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 73%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day17:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum17 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day18 {
     position: absolute;
@@ -181,8 +389,20 @@ div#day18 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 14%;
+    left: 83%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day18:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum18 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day19 {
     position: absolute;
@@ -190,8 +410,20 @@ div#day19 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
+    top: 24%;
     left: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day19:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum19 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day20 {
     position: absolute;
@@ -199,8 +431,20 @@ div#day20 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 13%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day20:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum20 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day21 {
     position: absolute;
@@ -208,18 +452,41 @@ div#day21 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 23%;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+div#day21:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum21 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
+}
 div#day22 {
     position: absolute;
     background-color: white;
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day22:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum22 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day23 {
     position: absolute;
@@ -227,8 +494,20 @@ div#day23 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 43%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day23:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum23 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day24 {
     position: absolute;
@@ -236,8 +515,20 @@ div#day24 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 53%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day24:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum24 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day25 {
     position: absolute;
@@ -245,8 +536,20 @@ div#day25 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 63%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day25:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum25 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day26 {
     position: absolute;
@@ -254,8 +557,20 @@ div#day26 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 73%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day26:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum26 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day27 {
     position: absolute;
@@ -263,8 +578,20 @@ div#day27 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 24%;
+    left: 83%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day27:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum27 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day28 {
     position: absolute;
@@ -272,8 +599,20 @@ div#day28 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
+    top: 34%;
     left: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day28:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum28 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day29 {
     position: absolute;
@@ -281,8 +620,20 @@ div#day29 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 34%;
+    left: 13%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day29:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum29 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day30 {
     position: absolute;
@@ -290,8 +641,20 @@ div#day30 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 34%;
+    left: 23%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day30:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum30 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 div#day31 {
     position: absolute;
@@ -299,8 +662,20 @@ div#day31 {
     width: 8%;
     height: 8%;
     border-radius: 15px;
-    top: 3%;
-    left: 3%;
+    top: 34%;
+    left: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div#day31:hover {
+    width: 9%;
+    height: 9%;
+}
+p.DayNum31 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: 15pt Normal;
 }
 
 @media screen and (max-height: 1070px) and (min-width: 250px) and (orientation:portrait) {

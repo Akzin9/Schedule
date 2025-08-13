@@ -1,0 +1,11 @@
+1.	Tabela com nomes das atividades, horários, etc; 
+2.	Menu de personalização do site, podendo alterar o fundo e ícones de diversas áreas do site para imagens ou gifs personalizados; 
+3.	Menu com missões de atividade e conclusão de tarefas, com pontuação ganha e ranking próprio, ranking esse que reseta a cada mês e os resultados dos meses anteriores podem ser consultados para que seja feita uma comparação;
+4.	Calendário; 
+5.	Tabela com as próximas atividades do dia, com nome da atividade, tempo até o início da atividade, tempo estimado de conclusão, pontos previstos por concluir a atividade (pontos esses que podem ser diminuídos ou aumentados dependendo do tempo gasto na atividade).
+6.	Lembrete por notificação da aproximação da próxima atividade do dia e sobre a aproximação de uma atividade de grande importância, que provavelmente pode requirir um melhor preparo anterior a ela.
+7.	Opções para definir prioridade e outros detalhes da atividade, como “necessário levar lanche” e “se preparar duas horas antes”, por exemplo
+
+ Ser um calendário extremamente personalizado de controle de rotina. Deve ser um ambiente de conforto ao usuário, contendo também metas e outras funcionalidades para tornar o site próximo de um jogo e motivar o usuário a utilizá-lo.
+
+ possível nome para o projeto: Againt U
